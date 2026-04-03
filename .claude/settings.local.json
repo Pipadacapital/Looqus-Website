@@ -1,0 +1,22 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(//Users/kushalyadav/Downloads/**)",
+      "Bash(npx create-next-app@latest Looqus --typescript --tailwind --app --no-src-dir --import-alias \"@/*\" --no-git --yes)",
+      "Bash(npm --version)",
+      "Bash(export PATH=\"/usr/local/bin:/opt/homebrew/bin:/opt/homebrew/sbin:$PATH\")",
+      "Bash(npx --version)",
+      "Bash(npx create-next-app@14 looqus-temp --typescript --tailwind --app --no-src-dir --import-alias \"@/*\" --no-git --yes)",
+      "Bash(npx create-next-app@14 looqus-temp --typescript --tailwind --app --no-src-dir --import-alias \"@/*\" --no-git --eslint)",
+      "Bash(npm install:*)",
+      "Bash(npm run:*)",
+      "Bash(node /Users/kushalyadav/Downloads/Looqus/node_modules/next/dist/bin/next build)",
+      "mcp__Claude_Preview__preview_start",
+      "Bash(gh auth:*)",
+      "Bash(git --version)",
+      "Bash(ssh -T git@github.com)",
+      "Bash(chmod 600 /Users/kushalyadav/.ssh/id_rsa)",
+      "Bash(chmod 600 /Users/kushalyadav/.ssh/id_ed25519)"
+    ]
+  }
+}

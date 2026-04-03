@@ -9,11 +9,30 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        ink: "#0A0A0A",
+        surface: "#F5F3EF",
+        ember: "#D84B1E",
+        "ember-light": "#FCEEE9",
+        "slate-custom": "#4A4A4A",
+        rule: "#E4E0D9",
+      },
+      fontFamily: {
+        syne: ["var(--font-syne)", "sans-serif"],
+        "dm-sans": ["var(--font-dm-sans)", "sans-serif"],
+      },
+      maxWidth: {
+        content: "1200px",
+      },
+      backgroundImage: {
+        "dot-pattern":
+          "radial-gradient(circle, rgba(255,255,255,0.07) 1px, transparent 1px)",
+      },
+      backgroundSize: {
+        "dot-sm": "32px 32px",
       },
     },
   },
   plugins: [],
 };
+
 export default config;
